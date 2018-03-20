@@ -1,0 +1,15 @@
+/*通用大弹出框*/
+.sense_tyd_box{ width:620px;}
+.sense_tyd_box_c{ }
+.sense_tyd_box_content{}
+
+.sense_tyd_box_title{ font-family:"微软雅黑"; height:44px; line-height:44px; border-bottom:1px solid #ff8000; position:relative}
+.sense_tyd_box_title span{ font-size:16px; color:#ff8000}
+.sense_tyd_box_title a{ position:absolute; right:0px; top:10px}
+
+
+.sense_Loading {position:absolute;left:10px;z-index:9999;border:0px;top:200px; width:620px; font-size:12px; }
+.sense_Loading_server {position:absolute;left:10px;z-index:9999;border:0px;top:10px; width:620px; font-size:12px;}
+.sense_Loading_showimg {position:absolute;left:10px;z-index:9999;border:0px;top:10px; width:620px; font-size:12px; }
+#sense_mbDIV{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;background-color:#333;z-index:9998;filter: alpha(opacity=70);opacity:0.7;}
+

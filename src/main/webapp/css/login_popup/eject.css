@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.popup{ width:519px; height:360px; background:#fff; padding:0 0 0 27px; position:relative}
+.popup2{ width:519px;height:205px; background:#fff; padding:0 0 0 27px; position:relative}
+.popup_title{ font-size:16px; color:#009999; border-bottom:1px dashed #e8e8e8; line-height:48px;}
+.close_btn a{ background:url(../../images/all2.png) no-repeat -57px -143px; width:47px; height:47px; display:inline-block; position:absolute; right:-24px; top:-22px}
+.close_btn a:hover{ background:url(../../images/all2.png) no-repeat 0px -143px; width:47px; height:47px; display:inline-block; position:absolute; right:-24px; top:-22px}
+.popup ul{ padding:28px 0 0 0}
+.popup ul li, .popup2 ul li{ margin-bottom:12px; line-height:30px;}
+.popup ul li span.yx, .popup2 ul li span.yx{ width:84px; text-align:right; float:left; display:inline-block; line-height:30px;}
+.popup ul li samp, .popup2 ul li samp{ float:left;}
+.popup ul li samp ins{ color:#f30; text-decoration:none; padding:0 0 0 4px}
+.popup ul li samp i, .popup2 ul li samp i{ color:#f30}
+.popup ul li .input_txt1, .popup2 ul li .input_txt1{ width:305px; color:#666; text-indent:10px; float:left}
+.popup ul li .input_txt2, .popup2 ul li .input_txt2{ width:213px; color:#666; text-indent:10px; float:left}
+.popup ul li .moren, .popup2 ul li .moren{ float:left; line-height:30px;}
+.popup ul li .moren input, .popup2 ul li .moren input{ margin:0 8px 0 0}
+.popup .yzm{ width:90px; height:20px; line-height:20px; text-align:center; border:none; background:#f1f0f0; color:#666; cursor:pointer}
+
+
+.popup_choice{ float:left; width:396px; _padding:0 0 0 2px;}
+.popup_choice .select_box{float:left; background:url(../../images/select.gif) no-repeat; position:relative;cursor:pointer;width:123px; height:28px; border:1px solid #ccc; margin-right:7px; display:inline}
+.popup_choice .selet_open{display:inline-block;position:absolute;right:0;top:0;width:18px;height:31px; background:url(../../images/icon.gif) no-repeat left -182px}
+.popup_choice .select_txt{display:inline-block;padding-left:10px;width:113px;line-height:29px;height:29px;cursor:text;overflow:hidden; cursor:pointer}
+.popup_choice .option{width:103px;border:solid 1px #ddd; background:#fff; position:absolute;top:28px;left:-1px;z-index:2;overflow:hidden;display:none; padding:10px; height:120px; overflow-y:auto}
+.popup_choice .option em{display:block;height:26px;line-height:26px;text-align:left;background:#fff; }
+.popup_choice .option em:hover{background:#fcfcfc;}
+
+
+.popup_choice2{ float:left;_padding:0 0 0 2px}
+.popup_choice2 .select_box{float:left; background:url(../../images/select.gif) no-repeat; position:relative;cursor:pointer;width:213px; height:28px; border:1px solid #ccc; margin-right:7px; display:inline}
+.popup_choice2 .selet_open{display:inline-block;position:absolute;right:0;top:0;width:18px;height:31px; background:url(../../images/icon.gif) no-repeat left -182px}
+.popup_choice2 .select_txt{display:inline-block;padding-left:10px;width:203px;line-height:29px;height:29px;cursor:text;overflow:hidden; cursor:pointer}
+.popup_choice2 .option{width:193px;border:solid 1px #ddd; background:#fff; position:absolute;top:28px;left:-1px;z-index:2;display:none; padding:10px; height:120px; overflow-y:auto}
+.popup_choice2 .option em{display:block;height:26px;line-height:26px; text-indent:0px;background:#fff;}
+.popup_choice2 .option em:hover{background:#fcfcfc;}
+
+
+.popup_txt{ text-align:center; padding:25px 0}
+.popup_txt em{ color:#f30}
+.popup_txt p{ line-height:30px;}
+.poput_btn{ margin-top:20px;}
+.poput_btn a{ width:91px; height:31px; line-height:31px; color:#fff; display:inline-block; background:#61d0c7; margin:0 6px;}
+.poput_btn a:hover{background:#2dc1b5}
+.yzm{ width:90px; height:28px; line-height:28px; text-align:center; border:none; background:#f1f0f0; color:#666; cursor:pointer}
+.popup_title2{ text-align:center; font-size:30px; color:#e44737; height:43px; line-height:43px; padding:30px 0 30px 0}
+.popup_title2 span{ background:url(../../images/pup_icon.gif) no-repeat left center; padding:0 0 0 50px; display:inline-block;}
+.pop_txt{ line-height:22px; font-size: 14px;}
+.pop_txt strong{ color:#e44737; display:block; margin-bottom:10px;}
+.pop_txt a{ color:#e44737}
+a.pop_btn{ width:118px; height:37px; background:#61d0c7; font-size:16px; text-align:center; line-height:37px; color:#fff; border:none;display:inline-block;}
+a.pop_btn:hover{background:#2dc1b5}
+
+
+.sense{ border-radius:4px; background:#33ccff; width:620px; height:430px; position:relative}
+.qiqiu{ width:96px; height:132px; position:absolute; top:-92px; left:-8px;}
+.sense_close{ position:absolute; right:-12px; top:-12px; width:26px; height:26px;}
+#mainBox { width:392px; margin:0 auto;height:212px; position: relative; overflow: hidden; }
+.content_txt2 span{ color:#ffff00} 
+.content_txt2 h4{ color:#006699; font-size:14px; line-height:28px;}
+.content_txt2 h6{ font-size:12px; line-height:24px;}
+.content_txt5{ height:362px; overflow-y:auto;}
+#content { height:490px;position: absolute; left: 0; top: 0; color:#fff}
+#scrollBox{ background: url(../../images/st1.jpg) repeat-y right top !important; display:block; width:6px; height:100px;
+top:0; cursor:pointer; z-index:10000}
+.scrollDiv { width:6px; position: absolute; right:0; top: 0; background: url(../../images/st2.jpg) repeat-y right top !important ; display:block; z-index:10000}
+.m-catr{padding:15px 0 10px 12px;*padding:15px 0 10px 14px;} 
+
+.content_txt2{ width:580px; line-height:18px; color:#fff; margin:0 auto}
+.content_txt2 p{ padding-left:22px; margin-bottom:6px;}
+.content_txt2 h3{ color:#fff; text-align:center; font-size:16px; padding:15px 0 12px 0}
+
+
+
+.saomiao{ font-size:16px; line-height:26px; text-align:center; padding:0px 0 0px 0}
+.saomiao p{}
+.saomiao span{ color:#ff6c00}
